@@ -1,4 +1,3 @@
-
 #Install packages
 install.packages("ISLR")
 library(ISLR)
