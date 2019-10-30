@@ -46,7 +46,7 @@ hc.data = cbind(cluster = hc.cut,data)
 aggregate(.~cluster,data = hc.data, FUN = mean)
 #group 1 has much lower amount of apps, accept, enroll, but higher outstate tuition
 #and grad.rate is not much lower than group 2, which is a bit different from kmeans
-#group 1 has much higher amount of apps, accept and enroll but lower outstate 
+#group 2 has much higher amount of apps, accept and enroll but lower outstate 
 #tuition. Compared to Kmeans, hc is only a bit different but overall the 2 clusters 
 #are similar. 
 
